@@ -1,0 +1,119 @@
+/* General Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #3a2c1a;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1e3a5f; /* Deep steppe blue */
+  color: #f0e6d2; /* Soft gold */
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+nav {
+  background-color: #8a1e3b; /* Elegant deep red */
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+nav a {
+  color: #f0e6d2;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffb74d; /* Warm golden accent */
+}
+
+.container {
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.service-card {
+  background-color: #fff;
+  border: 2px solid #e0d2a1; /* Earthy golden color */
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.service-card h3 {
+  color: #8a1e3b;
+  font-size: 1.4rem;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #5a4f47;
+}
+
+.service-card:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: #1e3a5f;
+  color: #f0e6d2;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 4rem;
+  font-size: 1.2rem;
+}
+
+.contact-form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  border: 1px solid #e0d2a1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 3rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #8a1e3b;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
